@@ -1,5 +1,5 @@
 # Time-resolved single-cell and spatial gene regulatory atlas of plants under pathogen attack
-This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1)
+This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) analyses in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1)
 ![Project Banner](images/cover_image.png)
 
 ## **snMultiome analyses**
