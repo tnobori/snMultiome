@@ -1,7 +1,8 @@
-# snMultiome
-This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1).
+# Time-resolved single-cell and spatial gene regulatory atlas of plants under pathogen attack
+This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1).**\
 
-## **Scripts**
+
+## **snMultiome analyses**
 **[snMultiome_preprocessing_cellranger.sh](scripts/snMultiome_preprocessing_cellranger.sh)**\
 cellranger-arc for processing snMultiome raw data
 
@@ -31,3 +32,10 @@ Comparisons between snRNA-seq/snATAC-seq and bulk RNA-seq/ATACseq
 
 **[8_snRNA-seq_of_gt3aKO_figS8.R](scripts/8_snRNA-seq_of_gt3aKO_figS8.R)**\
 snRNA-seq analysis of a GT-3A knowckout mutant 
+
+## **Integration with spatial transcriptomics (MERFISH)**
+Please refer to [Spatial_Plant_Pathogen_Atlas](https://github.com/amonell/Spatial_Plant_Pathogen_Atlas.git)
+
+## Contact
+
+- Tatsuya Nobori: :envelope: Tatsuya.Nobori@tsl.ac.uk
