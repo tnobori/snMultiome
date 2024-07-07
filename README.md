@@ -9,10 +9,10 @@ cellranger-arc for processing snMultiome raw data
 **[0_config_multiome.R](scripts/0_config_multiome.R)**\
 This script installs necessary libraries and functions
 
-**[1_qc_data_integration.R](scripts/1_qc_data_integration_figS1.R)**\
+**[1_qc_data_integration_figS1.R](scripts/1_qc_data_integration_figS1.R)**\
 QC based on snRNA-seq and snATAC-seq data
 
-**[2_clustering.R](scripts/2_clustering_fig1_figS12.R)**\
+**[2_clustering_fig1_figS12.R](scripts/2_clustering_fig1_figS12.R)**\
 Clustering analysis based on snRNA-seq, snATAC-seq, or joint data
 
 **[3_ACR-gene_link_analysis_fig2.R](scripts/3_ACR-gene_link_analysis_fig2.R)**\
