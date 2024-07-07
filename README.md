@@ -2,6 +2,9 @@
 This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1).
 
 ## **Scripts**
+**[0_config_multiome.R](scripts/0_config_multiome.R)**\
+This script installs necessary libraries and functions
+
 **[1_qc_data_integration.R](scripts/1_qc_data_integration.R)**\
 QC based on snRNA-seq and snATAC-seq data
 
