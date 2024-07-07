@@ -8,19 +8,19 @@ cellranger-arc for processing snMultiome raw data
 **[0_config_multiome.R](scripts/0_config_multiome.R)**\
 This script installs necessary libraries and functions
 
-**[1_qc_data_integration.R](scripts/1_qc_data_integration.R)**\
+**[1_qc_data_integration.R](scripts/1_qc_data_integration_figS1.R)**\
 QC based on snRNA-seq and snATAC-seq data
 
-**[2_clustering.R](scripts/2_clustering.R)**\
+**[2_clustering.R](scripts/2_clustering_fig1_figS12.R)**\
 Clustering analysis based on snRNA-seq, snATAC-seq, or joint data
 
-**[3_linkage_analysis.R](scripts/3_linkage_analysis.R)**\
-Correlation analysis between mRNA expression and chromatin accessibility
+**[3_ACR-gene_link_analysis_fig2.R](scripts/3_ACR-gene_link_analysis_fig2.R)**\
+Linking mRNA expression and chromatin accessibility
 
-**[4_motif_analysis.R](scripts/4_motif_analysis.R)**\
+**[4_motif_analysis.R](scripts/4_motif_analysis_fig3.R)**\
 Motif enrichment analysis at the single-cell resolution
 
-**[5_subclustering_pseudobulking.R](scripts/5_subclustering_pseudobulking.R)**\
+**[5_subclustering_pseudobulking.R](scripts/5_subclustering_pseudobulking_fig1.R)**\
 Sub-clustering analysis of individual major clusters
 
 **[6_gt3a_bulkRNAseq_fig6.R](scripts/6_gt3a_bulkRNAseq_fig6.R)**\
