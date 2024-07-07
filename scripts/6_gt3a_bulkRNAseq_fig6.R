@@ -1,9 +1,6 @@
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
 ## This script analyzes bulk RNA-seq data
 ## Figures produced with this script: Fig6
-
-## This file needs to be loaded:
-#gt3aox <- read.delim("/Users/tatsuyanobori/Dropbox/SALK_clowd/Manuscripts/2022_08_pathogen_multiome/Akira_collaboration/rnaseq/fitted_mean_Col_GT3a_DC_q0.05_2fold.txt", header = T, row.names = 1)
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
 
 rm(list = ls())
@@ -16,7 +13,7 @@ dir.create(file.path(mainDir, subDir), showWarnings = FALSE)
 setwd(file.path(mainDir, subDir))
 
 # Load dataset
-data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/"))
+data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/"))## A fully processed Seurat object can be downloaded at http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/processed_seurat_object/combined_filtered.rds. Or you can create one from scratch by running 1_qc_data_integration_figS1.R
 
 id_to_gene <- function(genes){
   if (length(annotation$gene_name[annotation$gene_id==genes] %>% na.omit)!=0 ){

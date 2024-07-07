@@ -38,13 +38,13 @@ optns <- theme(
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
 
 # Load original dataset
-data_orig <- readRDS(paste(mainDir, "_seurat_object", "combined_filtered.rds", sep = "/"))
+data_orig <- readRDS(paste(mainDir, "_seurat_object", "combined_filtered.rds", sep = "/"))## A fully processed Seurat object can be downloaded at http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/processed_seurat_object/combined_filtered.rds. Or you can create one from scratch by running 1_qc_data_integration_figS1.R
 
 # Load annotation
 annotation <- Annotation(data_orig@assays$ATAC)
 
 # Load GT3a data
-data <- readRDS(file = "/Users/tatsuyanobori/Dropbox/SALK_clowd/Projects/SA_PTI_ETI_single_cell/SA_039_98 snRNA-seq gt3aKO/_RDS_files/data_harmony.rds")
+data <- readRDS(paste(mainDir, "_seurat_object", "gt3ako.rds", sep = "/")) ##download this dataset at http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/processed_seurat_object/gt3ako.rds
 
 # Extract AvrRpt2 data
 cell_select <- colnames(data_orig)[c(grep("Mock", data_orig$sample), grep("AvrRpt2", data_orig$sample))]

@@ -44,7 +44,7 @@ optns <- theme(
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
 ## snATAC vs bulk ATAC
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
-data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/")) # This object is created in 1_qc_data_integration_figS1.R
+data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/")) ## A fully processed Seurat object can be downloaded at http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/processed_seurat_object/combined_filtered.rds. Or you can create one from scratch by running 1_qc_data_integration_figS1.R
 
 library(rtracklayer)
 library(GenomicRanges)

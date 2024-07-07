@@ -44,7 +44,7 @@ optns <- theme(
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
 ## RNA clustering
 ##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==##==
-data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/"))
+data <- readRDS(paste(mainDir, "_seurat_object","combined_filtered.rds", sep = "/")) ## A fully processed Seurat object can be downloaded at http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/processed_seurat_object/combined_filtered.rds. Or you can create one from scratch by running 1_qc_data_integration_figS1.R
 
 # Load annotation
 annotation <- Annotation(data@assays$ATAC)
