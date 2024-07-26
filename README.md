@@ -2,6 +2,8 @@
 This repository contains key scripts used for single-nucleus multiomics (RNA and ATAC) analyses in [Nobori et al., 2023, bioRxiv](https://www.biorxiv.org/content/10.1101/2023.04.10.536170v1)
 ![Project Banner](images/cover_image.png)
 
+Note: The preprint is currently being updated, and figure numbers in this repository may not match the preprint.
+
 ## **snMultiome analyses**
 **[snMultiome_preprocessing_cellranger.sh](scripts/snMultiome_preprocessing_cellranger.sh)**\
 cellranger-arc for processing snMultiome raw data
