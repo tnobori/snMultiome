@@ -1,6 +1,17 @@
 #!/bin/bash
 
 
+# Reference Files:
+# 
+# Genome and annotation files:
+#    - Download the genome and annotation files used in this study from the following URL:
+#      http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/arabidopsis_genome/
+#
+# Cell Ranger reference file:
+#    - Download the Cell Ranger reference file from the following URL:
+#      http://neomorph.salk.edu/download/Nobori_etal_merfish/multiome/cellranger_reference/
+
+
 # Instructions for Creating a Sample Sheet
 # 
 # 1. Download FASTQ files:
