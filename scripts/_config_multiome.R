@@ -34,7 +34,7 @@ install_if_missing <- function(packages) {
 install_if_missing(c("dplyr", "ggplot2", "cowplot", "ggrepel", "reshape", 
                      "tictoc", "ggpubr", "tidyverse", "pheatmap", "RColorBrewer", "scales", 
                      "viridis", "magrittr",  "vegan", "labdsv", "splitstackshape", 
-                     "rlist", "qvalue", "patchwork", "egg", "harmony", "hdf5r", "ggseqlogo"))
+                     "rlist", "patchwork", "egg", "harmony", "hdf5r", "ggseqlogo"))
 
 # Install Bioconductor packages if BiocManager is not installed
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
@@ -51,7 +51,7 @@ install_bioc_if_missing <- function(packages) {
 # Install Bioconductor packages if missing
 install_bioc_if_missing(c("Signac", "BRGenomics", "fastmatch", "GenomicFeatures", "BSgenome.Athaliana.TAIR.TAIR9",
                           "org.Athaliana.eg.db", "clusterProfiler", "JASPAR2020", "TFBSTools", 
-                          "SingleCellExperiment", "chromVAR", "DESeq2", "motifmatchr", "edgeR", "glmGamPoi"))
+                          "SingleCellExperiment", "qvalue","chromVAR", "DESeq2", "motifmatchr", "edgeR", "glmGamPoi"))
 
 # Install packages from GitHub if not already installed
 if (!requireNamespace("remotes", quietly = TRUE)) {
@@ -131,7 +131,7 @@ if (!requireNamespace("Signac", quietly = TRUE) ||
 packages_to_load <- c("Seurat", "Signac", "BRGenomics", "fastmatch", "dplyr", "ggplot2", 
                       "cowplot", "ggrepel", "reshape", "tictoc", "ggpubr", "tidyverse", 
                       "pheatmap", "RColorBrewer", "scales", "viridis", "magrittr", "edgeR", 
-                      "vegan", "labdsv", "splitstackshape", "rlist", "qvalue", "patchwork", 
+                      "vegan", "labdsv", "splitstackshape", "rlist", "patchwork", 
                       "egg", "SingleCellExperiment", "chromVAR", "DoubletFinder", "GenomicFeatures", 
                       "BSgenome.Athaliana.TAIR.TAIR9", "org.Athaliana.eg.db", "clusterProfiler", 
                       "JASPAR2020", "TFBSTools", "harmony")
